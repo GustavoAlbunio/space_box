@@ -1,0 +1,91 @@
+div.container_data {
+  max-width: 1024px;
+  padding: 0 10px;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.container_data div.user_data {
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  flex: 1;
+  display: flex;
+}
+
+div.container_data div.user_data img {
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.container_data div.user_data div.dados {
+  padding-left: 10px;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+div.container_data div.user_data div.dados span {
+  color: #002a50;
+  display: flex;
+  align-items: center;
+}
+
+div.container_data div.user_data div.dados span strong {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #959595;
+  text-align: right;
+  width: 80px;
+  padding-right: 10px;
+}
+
+div.container_data div.user_data div.dados span .nome_user,
+div.container_data div.user_data div.dados span .cargo_user,
+div.container_data div.user_data div.dados span .idade_user {
+  font-weight: bold;
+}
+
+div.users {
+  flex: 1;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.users div.user_data {
+  flex: 1 1 25%;
+  margin: 0px 10px 20px 10px;
+}
+
+div.users div.user_data:nth-child(3n) {
+  margin-right: 0;
+}
+
+div.users div.user_data:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+div.users div.container_data div.user_data div.dados div.info {
+  padding-left: 10px;
+}
+
+div.users div.user_data div.dados div.info .nome {
+  color: #002a50;
+  font-weight: bold;
+}
+
+div.users div.user_data div.dados div.info .charge {
+  font-size: 0.8rem;
+  color: #959595;
+}
