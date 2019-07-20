@@ -24,6 +24,21 @@ div.container_data div.user_data img {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
+div.container_data div.user_data .number {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  color: #002a50;
+  background: #00ffea;
+  border-radius: 50%;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 div.container_data div.user_data div.dados {
   padding-left: 10px;
 
@@ -68,15 +83,22 @@ div.users div.user_data {
   margin: 0px 10px 20px 10px;
 }
 
-div.users div.user_data:nth-child(3n) {
-  margin-right: 0;
+div.users div.user_data:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
-div.users div.user_data:nth-child(3n + 1) {
-  margin-left: 0;
+@media only screen and (min-width: 500px) {
+  div.users div.user_data:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  div.users div.user_data:nth-child(3n + 1) {
+    margin-left: 0;
+  }
 }
 
-div.users div.container_data div.user_data div.dados div.info {
+div.users div.user_data div.dados div.info {
   padding-left: 10px;
 }
 
@@ -88,4 +110,14 @@ div.users div.user_data div.dados div.info .nome {
 div.users div.user_data div.dados div.info .charge {
   font-size: 0.8rem;
   color: #959595;
+}
+
+@media only screen and (max-width: 500px) {
+  div.users div.user_data:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  div.users div.user_data:nth-child(2n + 1) {
+    margin-left: 0;
+  }
 }
