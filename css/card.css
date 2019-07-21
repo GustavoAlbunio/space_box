@@ -24,8 +24,8 @@ div.container_data div.user_data img {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-div.container_data div.user_data .number {
-  position: absolute;
+div.container_data div.user_data .user_id {
+  position: relative;
   width: 18px;
   height: 18px;
   font-size: 12px;
@@ -33,6 +33,9 @@ div.container_data div.user_data .number {
   background: #00ffea;
   border-radius: 50%;
   font-weight: bold;
+
+  float: right;
+  right: 20%;
 
   display: flex;
   justify-content: center;
@@ -64,9 +67,9 @@ div.container_data div.user_data div.dados span strong {
   padding-right: 10px;
 }
 
-div.container_data div.user_data div.dados span .nome_user,
-div.container_data div.user_data div.dados span .cargo_user,
-div.container_data div.user_data div.dados span .idade_user {
+div.container_data div.user_data div.dados span .user_nome,
+div.container_data div.user_data div.dados span .user_cargo,
+div.container_data div.user_data div.dados span .user_idade {
   font-weight: bold;
 }
 

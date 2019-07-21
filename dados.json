@@ -1,63 +1,63 @@
-[ 
-  { 
+[
+  {
     "id": 1,
-    "foto": "foto-alberto.jpg",
+    "foto": "man.svg",
     "nome": "Alberto",
     "cargo": "Presidente",
-    "idade": 20 
+    "idade": 20
   },
-  { 
+  {
     "id": 2,
-    "foto": "foto-bruno.jpg",
+    "foto": "man.svg",
     "nome": "Bruno",
     "cargo": "Diretor",
-    "idade": 21 
+    "idade": 21
   },
-  { 
+  {
     "id": 3,
-    "foto": "foto-helena.jpg",
+    "foto": "woman.svg",
     "nome": "Helena",
     "cargo": "Gerente",
     "idade": 22
   },
-  { 
+  {
     "id": 4,
-    "foto": "foto-fernanda.jpg",
+    "foto": "woman.svg",
     "nome": "Fernanda",
     "cargo": "Desenvolvedor",
     "idade": 23
   },
-  { 
+  {
     "id": 5,
-    "foto": "foto-diego.jpg",
+    "foto": "man.svg",
     "nome": "Diego",
     "cargo": "Desenvolvedor",
     "idade": 24
   },
-  { 
+  {
     "id": 6,
-    "foto": "foto-iris.jpg",
+    "foto": "woman.svg",
     "nome": "Iris",
     "cargo": "Desenvolvedor",
-    "idade": 25 
+    "idade": 25
   },
-  { 
+  {
     "id": 7,
-    "foto": "foto-hugo.jpg",
+    "foto": "man.svg",
     "nome": "Hugo",
     "cargo": "Desenvolvedor",
-    "idade": 26 
+    "idade": 26
   },
-  { 
+  {
     "id": 8,
-    "foto": "foto-gustavo.jpg",
+    "foto": "man.svg",
     "nome": "Gustavo",
     "cargo": "Desenvolvedor",
     "idade": 27
   },
-  { 
+  {
     "id": 9,
-    "foto": "foto-gabriel.jpg",
+    "foto": "man.svg",
     "nome": "Gabriel",
     "cargo": "Desenvolvedor",
     "idade": 28
