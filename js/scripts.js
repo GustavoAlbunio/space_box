@@ -75,6 +75,14 @@ function showUser(id = 1) {
     }
   });
 
+  let cardsAll = document.querySelectorAll(".user_data");
+  cardsAll.forEach(card => {
+    card.classList.remove("active");
+  });
+
+  let cardSelect = document.querySelectorAll('[data-userid="' + id + '"]');
+  cardSelect[0].classList.add("active");
+
   document
     .querySelector(".user_img")
     .setAttribute("src", "./img/" + user[0].foto);

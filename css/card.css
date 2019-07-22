@@ -20,6 +20,13 @@ div.container_data div.user_data {
 
 div.container_data div.active {
   background: #002a50;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.6);
+}
+div.container_data div.active img {
+  background: #fff;
+}
+div.container_data div.active div.dados div.info span.nome {
+  color: #fff;
 }
 
 div.container_data div.user_data img {
