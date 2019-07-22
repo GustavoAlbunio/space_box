@@ -1,4 +1,7 @@
-window.onload = getUsers();
+window.onload = async () => {
+  await getUsers();
+  // await showUser();
+};
 
 var users;
 
@@ -8,6 +11,7 @@ function getUsers() {
     if (this.readyState == 4 && this.status == 200) {
       users = JSON.parse(this.responseText);
       appendUser(users);
+      showUser(1);
     }
   };
   xmlhttp.open("GET", "../dados.json", true);

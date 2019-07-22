@@ -18,6 +18,10 @@ div.container_data div.user_data {
   display: flex;
 }
 
+div.container_data div.active {
+  background: #002a50;
+}
+
 div.container_data div.user_data img {
   width: 80px;
   border-radius: 50%;
@@ -82,7 +86,7 @@ div.users {
 }
 
 div.users div.user_data {
-  flex: 1 1 25%;
+  flex: 1 1 321px;
   margin: 0px 10px 20px 10px;
 }
 
@@ -91,7 +95,7 @@ div.users div.user_data:hover {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 993px) {
   div.users div.user_data:nth-child(3n) {
     margin-right: 0;
   }
@@ -115,12 +119,18 @@ div.users div.user_data div.dados div.info .charge {
   color: #959595;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 992px) {
   div.users div.user_data:nth-child(2n) {
     margin-right: 0;
   }
 
   div.users div.user_data:nth-child(2n + 1) {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  div.users div.user_data {
+    margin: 0px 0px 20px 0px;
   }
 }
